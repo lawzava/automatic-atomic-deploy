@@ -1,0 +1,8 @@
+[
+  {
+	"id": "app",
+	"execute-command": "$HOME/deploy.sh app",
+	"command-working-directory": "$HOME"
+  }
+]
+
