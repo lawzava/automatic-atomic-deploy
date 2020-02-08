@@ -25,7 +25,7 @@ ln -s /var/www/$DIR/.env /var/www/$DIR/releases/$EXECUTION_REVISION/.env
 
 echo "Optimizing release"
 cd /var/www/$DIR/releases/$EXECUTION_REVISION &&
-	make production
+	make deploy
 
 echo "Linking current to revision: $EXECUTION_REVISION"
 rm -f /var/www/$DIR/current
