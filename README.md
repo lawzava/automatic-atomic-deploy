@@ -18,5 +18,5 @@ This script can be used for automated atomic deployment of web applications. Alt
 
 - Manual deploy - invoke deploy.sh followed by folder name, e.g. `deploy.sh app`
 
-- To enable automated deploys on push, invoke the deploy script on webhook and register it within the repository. Recommended tool: (https://github.com/adnanh/webhook)[https://github.com/adnanh/webhook] sample file - hooks.json
+- To enable automated deploys on push, invoke the deploy script on webhook and register it within the repository. Recommended tool: [https://github.com/adnanh/webhook](https://github.com/adnanh/webhook) sample file - hooks.json
 
